@@ -31,7 +31,10 @@ custom_file_path:
   #mixin: source/_data/mixins.styl
   #style: source/_data/styles.styl
 
-
+deploy:
+  type: git
+  repo: https://github.com/S-hive/S-hive.github.io.git  # 必须是 GitHub Pages 仓库
+  branch: main
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
