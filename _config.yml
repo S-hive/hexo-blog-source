@@ -3,22 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: S-hive's portfolio
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Li yalin
+language: zh-CN
+timezone: Asia/Shanghai
 
-# 菜单配置
-menu:
-  home: /
-  archives: /archives
-  # 添加 CS61B 菜单，路径对应你 source 目录下的 CS61B 文件夹
-  cs61b: /CS61B/
-  # 添加 Debug 菜单，路径对应你 source 目录下的 Debug 文件夹
-  debug: /Debug/
+
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -105,9 +98,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:S-hive/S-hive.github.io.git  # 你的 GitHub Pages 仓库地址
+  branch: main  # 部署分支

@@ -1,91 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="这次的proj 整体挺简单的，让我惊讶的是相比CS61A，它会提示要用到的辅助方法，不需要像之前非得看完整个框架才能开始做，而且还有风格检查和git ,GitHub 相关，刚好弥补了我不知道该怎么练习的苦恼。   这次的项目是一个叫2048 的游戏。 Task 1: Empty Space Exists如果棋盘上有空格就返回true，否则放回false 。遍历就解决了： 12345678910pu">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.23.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="这次的proj 整体挺简单的，让我惊讶的是相比CS61A，它会提示要用到的辅助方法，不需要像之前非得看完整个框架才能开始做，而且还有风格检查和git ,GitHub 相关，刚好弥补了我不知道该怎么练习的苦恼。   这次的项目是一个叫2048 的游戏。 Task 1: Empty Space Exists如果棋盘上有空格就返回true，否则放回false 。遍历就解决了： 12345678910pu">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="proj0">
 <meta property="og:url" content="http://example.com/CS61B/proj0.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="S-hive&#39;s portfolio">
 <meta property="og:description" content="这次的proj 整体挺简单的，让我惊讶的是相比CS61A，它会提示要用到的辅助方法，不需要像之前非得看完整个框架才能开始做，而且还有风格检查和git ,GitHub 相关，刚好弥补了我不知道该怎么练习的苦恼。   这次的项目是一个叫2048 的游戏。 Task 1: Empty Space Exists如果棋盘上有空格就返回true，否则放回false 。遍历就解决了： 12345678910pu">
-<meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-06-14T05:31:46.538Z">
-<meta property="article:modified_time" content="2025-06-14T05:31:46.538Z">
-<meta property="article:author" content="John Doe">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-06-13T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-06-14T05:38:59.124Z">
+<meta property="article:author" content="Li yalin">
 <meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://example.com/CS61B/proj0">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"http://example.com/CS61B/proj0.html","path":"CS61B/proj0.html","title":"proj0"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>proj0 | S-hive's portfolio
+</title>
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+
+
+
+
+
+
+
 
   
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
 
   
+
+
+
+
+
+
   
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
 
-<meta name="generator" content="Hexo 7.3.0"></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">S-hive's portfolio</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="home fa-fw"></i>首页</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-cs61b"><a href="/CS61B/" rel="section"><i class="book fa-fw"></i>cs61b</a></li><li class="menu-item menu-item-debug"><a href="/Debug/" rel="section"><i class="bug fa-fw"></i>debug</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
         
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-        
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Task-1-Empty-Space-Exists"><span class="nav-number">1.</span> <span class="nav-text">Task 1: Empty Space Exists</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Task-2-Max-Tile-Exists"><span class="nav-number">2.</span> <span class="nav-text">Task 2: Max Tile Exists</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Task-3-At-Least-One-Move-Exists"><span class="nav-number">3.</span> <span class="nav-text">Task 3: At Least One Move Exists</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Task-5-Move-Tile-Up-No-Merging"><span class="nav-number">4.</span> <span class="nav-text">## Task 5: Move Tile Up (No Merging)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Task-6-Merging-Tiles"><span class="nav-number">5.</span> <span class="nav-text">Task 6: Merging Tiles</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Task-7-Tilt-Column"><span class="nav-number">6.</span> <span class="nav-text">Task 7: Tilt Column</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Task-8-Tilt-Up"><span class="nav-number">7.</span> <span class="nav-text">Task 8: Tilt Up</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Task-9-Tilt-in-Four-Directions"><span class="nav-number">8.</span> <span class="nav-text">Task 9: Tilt in Four Directions</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Task-10-Updating-Score"><span class="nav-number">9.</span> <span class="nav-text">Task 10: Updating Score</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Li yalin</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+        </div>
       </div>
     </div>
-  </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner page posts-expand">
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">proj0
+</h1>
+
+<div class="post-meta-container">
+</div>
+
 </header>
 
-      <div class="outer">
-        <section id="main"><article id="page-" class="h-entry article article-type-page" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/CS61B/proj0.html" class="article-date">
-  <time class="dt-published" datetime="2025-06-14T05:31:46.538Z" itemprop="datePublished">2025-06-14</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>这次的<code>proj</code> 整体挺简单的，让我惊讶的是相比CS61A，它会提示要用到的辅助方法，不需要像之前非得看完整个框架才能开始做，而且还有风格检查和<code>git</code> ,<code>GitHub</code> 相关，刚好弥补了我不知道该怎么练习的苦恼。 </p>
+      
+      
+      <div class="post-body">
+          <p>这次的<code>proj</code> 整体挺简单的，让我惊讶的是相比CS61A，它会提示要用到的辅助方法，不需要像之前非得看完整个框架才能开始做，而且还有风格检查和<code>git</code> ,<code>GitHub</code> 相关，刚好弥补了我不知道该怎么练习的苦恼。 </p>
 <hr>
 <p>这次的项目是一个叫<a target="_blank" rel="noopener" href="https://play2048.co/">2048</a> 的游戏。</p>
 <h2 id="Task-1-Empty-Space-Exists"><a href="#Task-1-Empty-Space-Exists" class="headerlink" title="Task 1: Empty Space Exists"></a>Task 1: Empty Space Exists</h2><p>如果棋盘上有空格就返回true，否则放回false 。<br>遍历就解决了：</p>
@@ -121,99 +214,51 @@
 </ol>
 <h2 id="Task-10-Updating-Score"><a href="#Task-10-Updating-Score" class="headerlink" title="Task 10: Updating Score"></a>Task 10: Updating Score</h2><p>实现的分数更新。<br>这个直接在<code>moveTileUpAsFarAsPossible</code>方法里插入一行就行了：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">moveTileUpAsFarAsPossible</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> y)</span> &#123;  </span><br><span class="line">    <span class="type">Tile</span> <span class="variable">currTile</span> <span class="operator">=</span> board.tile(x, y);  </span><br><span class="line">    <span class="type">int</span> <span class="variable">myValue</span> <span class="operator">=</span> currTile.value();  </span><br><span class="line">    <span class="type">int</span> <span class="variable">targetY</span> <span class="operator">=</span> y;  </span><br><span class="line">    <span class="type">int</span> <span class="variable">step</span> <span class="operator">=</span> <span class="number">0</span>;  </span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> targetY + <span class="number">1</span>; i &lt; board.size(); i++) &#123; </span><br><span class="line">        <span class="keyword">if</span> (board.tile(x, i) == <span class="literal">null</span>) &#123;  </span><br><span class="line">            step += <span class="number">1</span>;  </span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;  </span><br><span class="line">            <span class="keyword">if</span> (board.tile(x, i).value() == myValue &amp;&amp; i != y) &#123; </span><br><span class="line">                <span class="keyword">if</span> (!board.tile(x, i).wasMerged()) &#123;  </span><br><span class="line">                    <span class="built_in">this</span>.score += board.tile(x, y).value() * <span class="number">2</span>;  <span class="comment">// 插入这里</span></span><br><span class="line">                    step += <span class="number">1</span>; </span><br><span class="line">                &#125;  </span><br><span class="line">            &#125;  </span><br><span class="line">            <span class="keyword">break</span>;  </span><br><span class="line">        &#125;  </span><br><span class="line">    &#125;  </span><br><span class="line">    <span class="keyword">if</span> (step != <span class="number">0</span>) &#123;  </span><br><span class="line">        board.move(x, targetY + step, currTile); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/CS61B/proj0.html" data-id="cmbvt02gd00002kv3evcp4w9h" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-    
-  
-</article>
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/06/">June 2025</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2025/06/14/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
       
-      &copy; 2025 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+      
+      
     </div>
-  </div>
-</footer>
 
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+    
     
 
 
-<script src="/js/jquery-3.6.4.min.js"></script>
+</div>
+  </main>
 
+  <footer class="footer">
+    <div class="footer-inner">
 
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Li yalin</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
 
   
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
   </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
 </body>
 </html>
