@@ -101,8 +101,8 @@ open_graph:
 menu:
   home: / || home
   archives: /archives/ || archive
-  cs61b: /CS61B/ || book    # CS61B 菜单
-  debug: /Debug/ || bug     # Debug 菜单
+  CS61B: /CS61B/ || book    # CS61B 菜单
+  Debug: /Debug/ || bug     # Debug 菜单
 
   #home: / || fa fa-home
   #about: /about/ || fa fa-user

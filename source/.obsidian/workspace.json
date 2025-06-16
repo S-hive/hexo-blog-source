@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8abd3dea597dba69",
+        "id": "32fd73a976dc99c1",
         "type": "tabs",
         "children": [
           {
-            "id": "45c4eb366cc2d462",
+            "id": "f51415d18043328b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Debug/博客流程.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "博客流程"
+              "title": "新标签页"
             }
           }
         ]
@@ -168,8 +164,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "45c4eb366cc2d462",
+  "active": "f51415d18043328b",
   "lastOpenFiles": [
+    "CS61B/index.md",
+    "CS61B/proj0.md",
+    "Debug/博客流程.md",
     "images/Pastedimage20250615170843.png",
     "images/Pastedimage20250615154243.png",
     "images/Pasted image 20250615170843.png",
@@ -180,16 +179,13 @@
     "images/Pastedimage20250615223118.png",
     "images/Pastedimage20250615223116.png",
     "images/Pastedimage20250615223111.png",
-    "images/Pastedimage20250615213603.png",
     "CS61B/images/Pasted",
     "CS61B/images/未命名",
     "CS61B/未命名",
     "CS61B/images/Pasted.md",
     "CS61B/images",
     "未命名.md",
-    "Debug/博客流程.md",
     "Debug/Blog/Blog.md",
-    "CS61B/proj0.md",
     "_posts/source/Debug/博客流程.md",
     "_posts/source/Debug",
     "_posts/source",
@@ -200,7 +196,6 @@
     "_posts/Debug",
     "Debug/Blog",
     "_posts/创建及配置一个基础博客.md",
-    "Debug/index.md",
-    "CS61B/index.md"
+    "Debug/index.md"
   ]
 }
