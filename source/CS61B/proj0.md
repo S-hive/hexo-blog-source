@@ -87,7 +87,7 @@ public boolean atLeastOneMoveExists() {
 }
 ```
 
-## ## Task 5: Move Tile Up (No Merging)
+## Task 5: Move Tile Up (No Merging)
 
 将位置 `(x, y)` 的方块尽可能向上移动到其所在列的最上方。
 这里提示要用 `Board` 类的方法 `move(int x, int y, Tile tile)`，这个方法将给定的 `tile` 移动到棋盘上的 `(x, y)` 位置。而且要求`moveTileUpAsFarAsPossible` 解决方案应该恰好调用一次 `move` 方法。那就是先确定步数再用`move` 。
@@ -164,9 +164,9 @@ public void tilt(Side side) {
 
 既然我们已经实现了向上方向的倾斜功能，现在我们必须对其他三个方向做同样的事情。
 这里我的方法应该和官方期望的解法不同，我看官方的提示好像还要用到`dubug`，这里我看它给出
-1. “ `Side` 类是一种特殊的类，称为 `Enum` ”
-2. “枚举可以用类似 `Side s = Side.NORTH` 的语法赋值。请注意，我们不是使用 `new` 关键字，而是直接将 `Side` 值设置为四个值中的一个”
-3. “如果你对 Java 枚举感兴趣，请查看 https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html 。”
+1. "`Side` 类是一种特殊的类，称为 `Enum` "
+2. "枚举可以用类似 `Side s = Side.NORTH` 的语法赋值。请注意，我们不是使用 `new` 关键字，而是直接将 `Side` 值设置为四个值中的一个"
+3. "如果你对Java枚举感兴趣请查看https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html"
 这几个提示，结合起来就是：
 ```java
 public void tiltWrapper(Side side) {  
