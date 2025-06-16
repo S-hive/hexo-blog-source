@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "23b7f0d0f2f5b87d",
+    "id": "d8fadd28a65dd441",
     "type": "split",
     "children": [
       {
-        "id": "8abd3dea597dba69",
+        "id": "ec68dc982959d833",
         "type": "tabs",
         "children": [
           {
-            "id": "45c4eb366cc2d462",
+            "id": "a9d87dd55e6031b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Debug/博客流程.md",
+                "file": "Leb03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "博客流程"
+              "title": "Leb03"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "74dcf4fdc96da387",
+    "id": "abbd6db944948418",
     "type": "split",
     "children": [
       {
-        "id": "53b56ef5962e4eda",
+        "id": "ea51ad9f7a03e393",
         "type": "tabs",
         "children": [
           {
-            "id": "c978e286b546aeae",
+            "id": "622a43014b3d33f3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "0d2eefc6d999d9e2",
+            "id": "0efef303f3e15275",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "14319c3da9562045",
+            "id": "fc4458c5956e9dbf",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "530f827b33caac52",
+    "id": "605a524fdca6fcb6",
     "type": "split",
     "children": [
       {
-        "id": "6258a1f65fd544d2",
+        "id": "2cdfea93eaba59c4",
         "type": "tabs",
         "children": [
           {
-            "id": "931ef1a5cd1bbcce",
+            "id": "52318a44dd61035b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS61B/proj0.md",
+                "file": "Leb03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "proj0 的反向链接列表"
+              "title": "Leb03 的反向链接列表"
             }
           },
           {
-            "id": "a9fcc9003eac39b3",
+            "id": "5105538505414de9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS61B/proj0.md",
+                "file": "Leb03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "proj0 的出链列表"
+              "title": "Leb03 的出链列表"
             }
           },
           {
-            "id": "99423014650a7596",
+            "id": "6f1e3eaf4355de3c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +137,18 @@
             }
           },
           {
-            "id": "5a21763bdfd600c0",
+            "id": "d82aadff7f674bf8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS61B/proj0.md",
+                "file": "Leb03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "proj0 的大纲"
+              "title": "Leb03 的大纲"
             }
           }
         ]
@@ -168,39 +168,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "45c4eb366cc2d462",
+  "active": "622a43014b3d33f3",
   "lastOpenFiles": [
-    "images/Pastedimage20250615170843.png",
-    "images/Pastedimage20250615154243.png",
-    "images/Pasted image 20250615170843.png",
-    "images/Pasted image 20250615154243.png",
-    "images/Pastedimage20250615230527.png",
-    "images/Pastedimage20250615223538.png",
-    "images/Pastedimage20250615223202.png",
-    "images/Pastedimage20250615223118.png",
-    "images/Pastedimage20250615223116.png",
-    "images/Pastedimage20250615223111.png",
-    "images/Pastedimage20250615213603.png",
-    "CS61B/images/Pasted",
-    "CS61B/images/未命名",
-    "CS61B/未命名",
-    "CS61B/images/Pasted.md",
-    "CS61B/images",
-    "未命名.md",
-    "Debug/博客流程.md",
-    "Debug/Blog/Blog.md",
-    "CS61B/proj0.md",
-    "_posts/source/Debug/博客流程.md",
-    "_posts/source/Debug",
-    "_posts/source",
-    "Debug/新建 文本文档.txt",
-    "Debug/Blog/article1.md",
-    "_posts/source/Debug/创建及配置一个基础博客.md",
-    "_posts/Debug/创建及配置一个基础博客.md",
-    "_posts/Debug",
-    "Debug/Blog",
-    "_posts/创建及配置一个基础博客.md",
-    "Debug/index.md",
-    "CS61B/index.md"
+    "Pasted image 20250615230527.png",
+    "Pasted image 20250615223538.png",
+    "Pasted image 20250615223202.png",
+    "Pasted image 20250615223118.png",
+    "Pasted image 20250615223116.png",
+    "Pasted image 20250615223111.png",
+    "Pasted image 20250615213033.png",
+    "Pasted image 20250615175444.png",
+    "Pasted image 20250615213603.png",
+    "Pasted image 20250615211618.png",
+    "Pasted image 20250615195658.png",
+    "Leb03.md",
+    "images/Pasted",
+    "未命名",
+    "images/Pasted.md",
+    "images",
+    "proj0.md"
   ]
 }
