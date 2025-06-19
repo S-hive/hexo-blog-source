@@ -11,10 +11,14 @@
             "id": "f51415d18043328b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CS61B/proj1a.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "proj1a"
             }
           }
         ]
@@ -166,19 +170,22 @@
   },
   "active": "f51415d18043328b",
   "lastOpenFiles": [
-    "CS61B/index.md",
+    "2025-06-19.md",
+    "images/Pasted image 20250616212818.png",
+    "images/Pasted image 20250616212809.png",
+    "images/Pasted image 20250619142148.png",
+    "images/Pasted image 20250619132929.png",
+    "images/Pasted image 20250618163248.png",
+    "images/Pasted image 20250617210149.png",
+    "images/Pasted image 20250616213139.png",
+    "images/Pasted image 20250616213103.png",
+    "images/Pasted image 20250616213051.png",
+    "CS61B/proj1a.md",
+    "Pasted image 20250619142148.png",
+    "未命名.canvas",
     "CS61B/proj0.md",
+    "CS61B/index.md",
     "Debug/博客流程.md",
-    "images/Pastedimage20250615170843.png",
-    "images/Pastedimage20250615154243.png",
-    "images/Pasted image 20250615170843.png",
-    "images/Pasted image 20250615154243.png",
-    "images/Pastedimage20250615230527.png",
-    "images/Pastedimage20250615223538.png",
-    "images/Pastedimage20250615223202.png",
-    "images/Pastedimage20250615223118.png",
-    "images/Pastedimage20250615223116.png",
-    "images/Pastedimage20250615223111.png",
     "CS61B/images/Pasted",
     "CS61B/images/未命名",
     "CS61B/未命名",

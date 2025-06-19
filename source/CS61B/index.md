@@ -6,4 +6,5 @@ categories:
 ---
 # CS61B 学习笔记汇总
 - [proj0](proj0)
+- [proj1a](proj1a)
 - [Leb03](Leb03)
