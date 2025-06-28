@@ -58,7 +58,7 @@ if (((double) this.lst.length / this.size) < 1.7) {
 * `this.nextLast = ... ; this.nextFirst = ... ;`： 注意要改,最好和声明时保持一致，不然测试很麻烦
 
 
-```java
+```java 
 // 缩容
 if ((((double)this.lst.length / this.size) > 3) && this.size != 0) {  
     int num = Math.max(this.lst.length / 2 ,3);  
