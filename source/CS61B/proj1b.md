@@ -60,16 +60,16 @@ if (((double) this.lst.length / this.size) < 1.7) {
 
 ```java 
 // 缩容
-if ((((double)this.lst.length / this.size) > 3) && this.size != 0) {  
-    int num = Math.max(this.lst.length / 2 ,3);  
-    T[] lst2 = (T[]) new Object[num];  
-    for (int i = 0; i <= this.size; i++){  
-        lst2[i] = this.lst[Math.floorMod((this.nextFirst + 1 + i),this.lst.length)];  
-    }  
-    this.lst = lst2;  
-    lst2 = null;  
-    this.nextLast = this.size;  
-    this.nextFirst = this.lst.length - 1;  
+if (((double)this.lst.length / this.size) > 3) {
+    int num = Math.max(this.lst.length / 2 ,3);
+    T[] lst2 = (T[]) new Object[num];
+    for (int i = 1; i <= this.size + 1; i++) {
+        lst2[i] = this.lst[Math.floorMod((this.nextFirst + i),this.lst.length)];
+    }
+    this.lst = lst2;
+    lst2 = null;
+    this.nextLast = this.size + 1;
+    this.nextFirst = 0;
 }```
 
-* 这里和上面扩容差不多，就不多写了
+* 这里上面扩容差不多，就不多写了
