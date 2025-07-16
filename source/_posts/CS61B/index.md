@@ -4,7 +4,6 @@ date: 2025-06-14
 categories:
   - CS61B
 ---
-# CS61B 学习笔记汇总
 - [proj0](/CS61B/proj0)
 - [proj1a](/CS61B/proj1a)
 - [Leb03](/CS61B/Leb03)

@@ -70,6 +70,7 @@ if (((double)this.lst.length / this.size) > 3) {
     lst2 = null;
     this.nextLast = this.size + 1;
     this.nextFirst = 0;
-}```
+}
+```
 
 * 这里上面扩容差不多，就不多写了

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "32fd73a976dc99c1",
+        "id": "1005a79f3918cadd",
         "type": "tabs",
         "children": [
           {
-            "id": "f51415d18043328b",
+            "id": "03b4c5cc1bcfb0c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS61B/proj1b.md",
+                "file": "数据结构/数组.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "proj1b"
+              "title": "数组"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "530f827b33caac52",
@@ -169,10 +168,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f51415d18043328b",
+  "active": "03b4c5cc1bcfb0c4",
   "lastOpenFiles": [
-    "CS61B/proj1a.md",
+    "数据结构/index.md",
+    "数据结构/数组.md",
+    "CS61B/proj0.md",
+    "Debug/index.md",
+    "Serve/SSH概念.md",
+    "Serve/数组.md",
+    "Serve/index.md",
+    "Debug/博客流程.md",
+    "_posts/Serve/index.md",
+    "_posts/Debug/index.md",
+    "CS61B/index.md",
+    "加密.md",
+    "Serve",
     "CS61B/proj1b.md",
+    "CS61B/proj1a.md",
+    "_posts/CS61B/index.md",
+    "CS61B/Leb03.md",
     "2025-06-19.md",
     "images/Pasted image 20250616212818.png",
     "images/Pasted image 20250616212809.png",
@@ -185,15 +199,11 @@
     "images/Pasted image 20250616213051.png",
     "Pasted image 20250619142148.png",
     "未命名.canvas",
-    "CS61B/proj0.md",
-    "CS61B/index.md",
-    "Debug/博客流程.md",
     "CS61B/images/Pasted",
     "CS61B/images/未命名",
     "CS61B/未命名",
     "CS61B/images/Pasted.md",
     "CS61B/images",
-    "未命名.md",
     "Debug/Blog/Blog.md",
     "_posts/source/Debug/博客流程.md",
     "_posts/source/Debug",
@@ -204,7 +214,6 @@
     "_posts/Debug/创建及配置一个基础博客.md",
     "_posts/Debug",
     "Debug/Blog",
-    "_posts/创建及配置一个基础博客.md",
-    "Debug/index.md"
+    "_posts/创建及配置一个基础博客.md"
   ]
 }
