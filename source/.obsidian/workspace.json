@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "800daedb733e5a5e",
+        "id": "0d0432a2cb7f6833",
         "type": "tabs",
         "children": [
           {
-            "id": "03cc9edacb9a45ac",
+            "id": "d8fca81c14daf62b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构/数组（顺序存储）基本原理.md",
+                "file": "Serve/SSH面试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数组（顺序存储）基本原理"
+              "title": "SSH面试"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 210.5
   },
   "right": {
     "id": "530f827b33caac52",
@@ -168,17 +168,37 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "03cc9edacb9a45ac",
+  "active": "d8fca81c14daf62b",
   "lastOpenFiles": [
-    "数据结构/动态数组代码实现.md",
-    "数据结构/数组（顺序存储）基本原理.md",
+    "images/Pastedimage20250724161951.png",
+    "images/20250724161951.png",
+    "Serve/Tomcat面试.md",
     "Debug/博客流程.md",
-    "数据结构/index.md",
+    "images/屏幕截图2025-07-24161951.png",
+    "Debug/使用Docker自托管Obsidian并通过网页浏览器访问.md",
+    "images/屏幕截图 2025-07-24 161951.png",
+    "images/Pastedimage20250615172423.png",
+    "images/Pastedimage20250615172020.png",
+    "数据结构/链表代码实现.md",
+    "数据结构/链表（链式存储）基本原理.md",
+    "Serve/Tomcat基础.md",
     "Serve/为什么称Tomcat为服务器？.md",
-    "Serve/SSH概念.md",
-    "Serve/index.md",
-    "CS61B/proj0.md",
     "Debug/index.md",
+    "Debug/使用 Docker 自托管 Obsidian 并通过网页浏览器访问.md",
+    "数据结构/动态数组代码实现.md",
+    "数据结构/index.md",
+    "images/Pastedimage20250724162824.png",
+    "images/Pastedimage20250724161956.png",
+    "images/Pastedimage20250724161308.png",
+    "images/Pastedimage20250724161028.png",
+    "Serve/Shell.md",
+    "Serve/SSH面试.md",
+    "Serve/SSH概念.md",
+    "().md",
+    "images/Pasted image 20250724162824.png",
+    "Serve/index.md",
+    "数据结构/数组（顺序存储）基本原理.md",
+    "CS61B/proj0.md",
     "Serve/数组.md",
     "_posts/Serve/index.md",
     "_posts/Debug/index.md",
@@ -187,35 +207,15 @@
     "Serve",
     "CS61B/proj1b.md",
     "CS61B/proj1a.md",
-    "_posts/CS61B/index.md",
-    "CS61B/Leb03.md",
-    "2025-06-19.md",
-    "images/Pasted image 20250616212818.png",
-    "images/Pasted image 20250616212809.png",
-    "images/Pasted image 20250619142148.png",
-    "images/Pasted image 20250619132929.png",
-    "images/Pasted image 20250618163248.png",
-    "images/Pasted image 20250617210149.png",
-    "images/Pasted image 20250616213139.png",
-    "images/Pasted image 20250616213103.png",
-    "images/Pasted image 20250616213051.png",
-    "Pasted image 20250619142148.png",
     "未命名.canvas",
     "CS61B/images/Pasted",
     "CS61B/images/未命名",
     "CS61B/未命名",
-    "CS61B/images/Pasted.md",
     "CS61B/images",
-    "Debug/Blog/Blog.md",
-    "_posts/source/Debug/博客流程.md",
     "_posts/source/Debug",
     "_posts/source",
     "Debug/新建 文本文档.txt",
-    "Debug/Blog/article1.md",
-    "_posts/source/Debug/创建及配置一个基础博客.md",
-    "_posts/Debug/创建及配置一个基础博客.md",
     "_posts/Debug",
-    "Debug/Blog",
-    "_posts/创建及配置一个基础博客.md"
+    "Debug/Blog"
   ]
 }
