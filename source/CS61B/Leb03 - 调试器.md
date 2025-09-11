@@ -1,9 +1,9 @@
 ---
-title: Leb03
+title: Leb03 - 调试器
 date: 2025-06-15
 cssclasses: CS61B
 ---
-![Pastedimage20250615154243](/images/Pastedimage20250615154243.png)
+![Pastedimage20250615154243](/images/Pastedimage20250615154243.png) 
 ### Debug `BeeCountingStage` 
 
 #### Expected lines modified: 1

@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "0d0432a2cb7f6833",
+        "id": "1d96da9c752a2752",
         "type": "tabs",
         "children": [
           {
-            "id": "d8fca81c14daf62b",
+            "id": "19e8811c6661fb89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serve/SSH面试.md",
+                "file": "_posts/Serve/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSH面试"
+              "title": "index"
+            }
+          },
+          {
+            "id": "692f0b85cba2b584",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Debug/hexo如何根据自定义权重排布首页文章.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hexo如何根据自定义权重排布首页文章"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -168,54 +184,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d8fca81c14daf62b",
+  "active": "692f0b85cba2b584",
   "lastOpenFiles": [
-    "images/Pastedimage20250724161951.png",
-    "images/20250724161951.png",
-    "Serve/Tomcat面试.md",
-    "Debug/博客流程.md",
-    "images/屏幕截图2025-07-24161951.png",
-    "Debug/使用Docker自托管Obsidian并通过网页浏览器访问.md",
-    "images/屏幕截图 2025-07-24 161951.png",
-    "images/Pastedimage20250615172423.png",
-    "images/Pastedimage20250615172020.png",
-    "数据结构/链表代码实现.md",
-    "数据结构/链表（链式存储）基本原理.md",
-    "Serve/Tomcat基础.md",
-    "Serve/为什么称Tomcat为服务器？.md",
-    "Debug/index.md",
-    "Debug/使用 Docker 自托管 Obsidian 并通过网页浏览器访问.md",
-    "数据结构/动态数组代码实现.md",
-    "数据结构/index.md",
-    "images/Pastedimage20250724162824.png",
-    "images/Pastedimage20250724161956.png",
-    "images/Pastedimage20250724161308.png",
-    "images/Pastedimage20250724161028.png",
-    "Serve/Shell.md",
-    "Serve/SSH面试.md",
-    "Serve/SSH概念.md",
-    "().md",
-    "images/Pasted image 20250724162824.png",
-    "Serve/index.md",
-    "数据结构/数组（顺序存储）基本原理.md",
-    "CS61B/proj0.md",
-    "Serve/数组.md",
-    "_posts/Serve/index.md",
     "_posts/Debug/index.md",
-    "CS61B/index.md",
-    "加密.md",
-    "Serve",
-    "CS61B/proj1b.md",
-    "CS61B/proj1a.md",
+    "Debug/index.md",
+    "Debug/hexo如何根据自定义权重排布首页文章.md",
+    "Debug/使用Docker自托管Obsidian并通过网页浏览器访问.md",
+    "_posts/Serve/index.md",
+    "_posts/数据结构/index.md",
+    "_posts/CS61B/index.md",
+    "CS61B/Lab 05-不相交集合.md",
+    "CS61B/proj1c - 迭代、比较器和对象方法.md",
+    "CS61B/hw2 - 渗流.md",
+    "CS61B/hw2 - 渗流",
+    "CS61B/proj1c - 迭代、比较器和对象方法",
+    "数据结构/链表代码实现.md",
+    "2025-09-11.md",
     "未命名.canvas",
+    "未命名 1.base",
+    "未命名.base",
+    "CS61B/CS61B/proj1c - 迭代、比较器和对象方法",
+    "CS61B/CS61B/Lab 05-不相交集合",
+    "CS61B/CS61B",
+    "images/Pasted image 20250907172224.png",
+    "images/Pasted image 20250907172011.png",
+    "images/Pasted image 20250907171510.png",
+    "images/Pasted image 20250906204212.png",
+    "Pasted image 20250906204151.png",
+    "Pasted image 20250906201903.png",
+    "images/Pasted image 20250906201422.png",
+    "images/Pastedimage20250615172020.png",
+    "images/Pasted image 20250906142013.png",
+    "images/Pasted image 20250906142002.png",
+    "CS61B/受检异常.md",
+    "CS61B/proj0 - 2048游戏.md",
+    "CS61B/Leb03 - 调试器.md",
+    "CS61B/index.md",
+    "CS61B/proj1b - 循环数组实现双端链表.md",
+    "CS61B/proj1a - 虚拟节点实现双端链表.md",
+    "Serve/index.md",
+    "数据结构/index.md",
+    "Debug/博客流程.md",
+    "数据结构/用链表实现队列、栈.md",
+    "数据结构/双端队列（Deque）原理及实现.md",
+    "数据结构/哈希表核心原理.md",
+    "数据结构/队列、栈基本原理.md",
+    "数据结构/跳表核心原理.md",
+    "Serve",
     "CS61B/images/Pasted",
-    "CS61B/images/未命名",
-    "CS61B/未命名",
-    "CS61B/images",
-    "_posts/source/Debug",
-    "_posts/source",
-    "Debug/新建 文本文档.txt",
-    "_posts/Debug",
-    "Debug/Blog"
+    "CS61B/images/未命名"
   ]
 }

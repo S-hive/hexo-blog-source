@@ -1,5 +1,5 @@
 ---
-title: proj1a
+title: proj1a - 虚拟节点实现双端链表
 date: 2025-06-16
 cssclasses:
   - CS61B

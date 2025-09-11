@@ -1,5 +1,5 @@
 ---
-title: proj1b
+title: proj1b - 循环数组实现双端链表
 date: 2025-06-27
 cssclasses:
   - CS61B
