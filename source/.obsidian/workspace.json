@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Serve/index.md",
+                "file": "_posts/老年病人压疮护理的研究动态/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,49 +22,20 @@
             }
           },
           {
-            "id": "692f0b85cba2b584",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Debug/hexo如何根据自定义权重排布首页文章.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "hexo如何根据自定义权重排布首页文章"
-            }
-          },
-          {
             "id": "1f761b06d63ee0f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构/二叉堆API.md",
+                "file": "_posts/CS61A/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "二叉堆API"
-            }
-          },
-          {
-            "id": "c557cd02495fc3b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Debug/博客流程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "博客流程"
+              "title": "index"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,33 +183,45 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c557cd02495fc3b1",
+  "active": "19e8811c6661fb89",
   "lastOpenFiles": [
-    "CS61A/Ant.md",
-    "数据结构/概要.md",
-    "CS61A",
-    "数据结构/刷题.md",
-    "数据结构/链表代码实现.md",
-    "数据结构/二叉堆API.md",
-    "Debug/hexo如何根据自定义权重排布首页文章.md",
-    "_posts/Debug/index.md",
-    "Debug/index.md",
-    "Debug/使用Docker自托管Obsidian并通过网页浏览器访问.md",
-    "_posts/Serve/index.md",
+    "老年病人压疮护理的研究动态/index.md",
+    "数据结构/index.md",
+    "_posts/老年病人压疮护理的研究动态/index.md",
     "_posts/数据结构/index.md",
-    "_posts/CS61B/index.md",
-    "CS61B/Lab 05-不相交集合.md",
-    "CS61B/proj1c - 迭代、比较器和对象方法.md",
-    "CS61B/hw2 - 渗流.md",
+    "_posts/CS61A/index.md",
+    "_posts/Debug/index.md",
+    "老年病人压疮护理的研究动态/Study on the effect of new dressings combined with traditional methods based on the concept of wet healing in the treatment of stress injuries in the elderly.md",
+    "老年病人压疮护理的研究动态/ulcer staging systems.md",
+    "老年病人压疮护理的研究动态/The NPUAP debate.md",
+    "老年病人压疮护理的研究动态/Injury Staging System.md",
+    "老年病人压疮护理的研究动态/高龄患者4期压疮治愈记：大鹏妇幼内科 VSD 技术让生命重获尊严.md",
+    "Study.md",
+    "CS61B/index.md",
+    "Study the effect of new dressings combined with traditional methods based on the concept of wet healing in the treatment of stress injuries in the elderly.md",
+    "老年病人压疮护理的研究动态/老年病人压疮预防及护理措施.md",
+    "老年病人压疮护理的研究动态/神经内科老年患者压疮的危险因素分析及护理对策.md",
+    "高龄患者4期压疮治愈记：大鹏妇幼内科.md",
+    "VSD.md",
+    "老年病人压疮护理的研究动态/思维导图结合集束化皮肤管理方案在预防老年髋关节置换病人医院获得性压疮中的应用.md",
+    "The.md",
+    "wet.md",
+    "Injury.md",
+    "_posts/Serve/index.md",
+    "老年病人压疮护理的研究动态",
+    "Debug/hexo如何根据自定义权重排布首页文章.md",
+    "open.url",
+    "Debug/博客流程.md",
+    "_posts/老年病人压疮护理的研究动态",
+    "CS61A/index.md",
+    "CS61",
+    "_posts/CS61A/未命名",
+    "_posts/CS61A",
+    "_posts/新建文件夹",
+    "CS61A",
     "CS61B/hw2 - 渗流",
     "CS61B/proj1c - 迭代、比较器和对象方法",
-    "2025-09-11.md",
     "未命名.canvas",
-    "未命名 1.base",
-    "未命名.base",
-    "CS61B/CS61B/proj1c - 迭代、比较器和对象方法",
-    "CS61B/CS61B/Lab 05-不相交集合",
-    "CS61B/CS61B",
     "images/Pasted image 20250907172224.png",
     "images/Pasted image 20250907172011.png",
     "images/Pasted image 20250907171510.png",
@@ -248,18 +231,6 @@
     "images/Pasted image 20250906201422.png",
     "images/Pastedimage20250615172020.png",
     "images/Pasted image 20250906142013.png",
-    "images/Pasted image 20250906142002.png",
-    "CS61B/受检异常.md",
-    "CS61B/proj0 - 2048游戏.md",
-    "CS61B/Leb03 - 调试器.md",
-    "CS61B/index.md",
-    "CS61B/proj1b - 循环数组实现双端链表.md",
-    "CS61B/proj1a - 虚拟节点实现双端链表.md",
-    "Serve/index.md",
-    "数据结构/index.md",
-    "Debug/博客流程.md",
-    "数据结构/用链表实现队列、栈.md",
-    "Serve",
-    "CS61B/images/Pasted"
+    "images/Pasted image 20250906142002.png"
   ]
 }
