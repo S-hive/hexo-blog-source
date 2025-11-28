@@ -41,3 +41,6 @@ categories:
 
 * [压疮治疗的技术革新与临床实践体验](https://www.yywsb.com/article/202403/2776068.html)
 * [解读｜《压疮/压力性损伤的预防和治疗：临床实践指南》](https://news.qq.com/rain/a/20240128A06XD800)
+
+---
+组成员：李雅琳（240200430）

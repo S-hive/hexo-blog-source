@@ -100,6 +100,7 @@ open_graph:
 # External url should start with http:// or https://
 menu:
   home: / || home
+  CS61A: /CS61A/ || book
   CS61B: /CS61B/ || book    # CS61B 菜单
   Serve: /Serve/ || book   # Serve 菜单
   数据结构: /数据结构/ || book # 数据结构 菜单
